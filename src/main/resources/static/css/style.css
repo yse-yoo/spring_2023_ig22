@@ -1,3 +1,7 @@
 body {
     color: #2f2f2f;
 }
+
+.article_image {
+    width: 300px;
+}
