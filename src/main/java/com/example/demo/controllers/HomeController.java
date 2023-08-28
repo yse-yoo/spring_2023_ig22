@@ -6,9 +6,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class HomeController {
 
-    //reosuces/templates/home/sample.html を表示
+    //Webルートにルーティング
     @GetMapping("/")
     public String index() {
+        //reosuces/templates/home/sample.html を表示
         return "home/sample";
     }
 
