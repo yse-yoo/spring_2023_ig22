@@ -23,10 +23,10 @@ public class RestSampleController {
     }
 
     // http://localhost:8080/users/xxxx
-    @GetMapping(value="/users/{userId}")
+    @GetMapping(value = "/users/{userId}")
     public String getUser(@PathVariable Long userId) {
         String message = "User id is " + userId;
         return message;
     }
-    
+
 }
