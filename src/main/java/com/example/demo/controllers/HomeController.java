@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class HomeController {
 
-    @GetMapping(value = "/")
+    @GetMapping("/")
     @ResponseBody
     public String index() {
         return "This is Top page.";
