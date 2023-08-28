@@ -12,5 +12,12 @@ public class RestSampleController {
     public String index() {
         return "Hello, Spring";
     }
+
+    @GetMapping(value="/bye")
+    public String bye(@RequestParam String param) {
+        String message = "Bye!" + param;
+        return message;
+    }
+    
     
 }
