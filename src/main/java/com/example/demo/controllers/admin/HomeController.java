@@ -12,6 +12,7 @@ public class HomeController {
     
     @GetMapping(value="")
     public String index() {
+        // resouces/templates/admin/index.html
         return "admin/index";
     }
     
